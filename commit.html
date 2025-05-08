@@ -20,7 +20,7 @@
             top: 0;
             width: 100%;
             z-index: 1000;
-            
+
         }
         nav ul {
             list-style-type: none;
@@ -36,6 +36,45 @@
         nav ul li a {
             color: white;
             text-decoration: none;
+        }
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+        .top:hover {
+            background-color: #444;
+        }
+        .top:active {
+            background-color: #555;
+        }
+        .top:focus {
+            outline: none;
+        }
+        .top:focus-within {
+            background-color: #666;
+        }
+        .top:focus-within nav ul li a {
+            color: #ddd;
+        }
+        .top:focus-within nav ul li a:hover {
+            color: #fff;
+        }
+        .top:focus-within nav ul li a:active {
+            color: #ccc;
+        }
+        .top:focus-within nav ul li a:focus {
+            color: #fff;
+        }
+        .top:focus-within nav ul li a:focus-visible {
+            color: #fff;
+        }
+        .top:focus-within nav ul li a:focus-visible:hover {
+            color: #fff;
+        }
+        .top:focus-within nav ul li a:focus-visible:active {
+            color: #ccc;
+        }
+        .top:focus-within nav ul li a:focus-visible:focus {
+            color: #fff;
         }
     </style>
 </head>
